@@ -1,0 +1,16 @@
+ /* CARRUSEL */
+  
+ .carrusel {
+    height: 900px;
+    border-radius: 20px;
+    box-shadow: 3px 7px 13px gray;
+  }
+  
+  @media (min-width: 300px) and (max-width: 1300px) {
+    .carrusel {
+      width: auto;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 3px 7px 13px gray;
+    }
+  }
