@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* BODY */
+  
+  body {
+    background-color: whitesmoke;
+  }
+  
+  /* HEROE */
+  
+  .boton {
+    background-color: #007200;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 15px;
+    border-color: #007200;
+  
+    &:hover {
+      background-color: #45a049;
+      color: black;
+    }
+  }
+  
+  .boton3 {
+    color: #007200;
+    border: 2px solid #007200;
+    border-radius: 15px;
+  
+    &:hover {
+      background-color: #007200;
+      color: whitesmoke;
+    }
+  }
+  
+  @media (min-width: 330px) and (max-width: 1000px) {
+    .imgHeroe {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 330px) and (max-width: 1000px) {
+    .parrafo {
+      font-size: 1rem;
+    }
+  }
+  
+  /* NAVBAR */
+  
+  .anclas {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    margin: 7px;
+    margin-left: 20px;
+  
+    &:hover {
+      background-color: #007200;
+      color: whitesmoke;
+      border-radius: 15px;
+      transition: 0ms;
+      transition-delay: 3s;
+      margin: 7px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1rem;
+      margin-left: 20px;
+      color: whitesmoke;
+      border-radius: 15px;
+      transition: 0ms;
+    }
+  }
+  
+  @media (min-width: 330px) and (max-width: 750px) {}
+  
+  .navbar-toggler {
+    border: 2px solid black;
+  }
+  
+  .boton2 {
+    color: #007200;
+    border: 2px solid #007200;
+  
+    &:hover {
+      background-color: #007200;
+      color: whitesmoke;
+    }
+  }
+  
+  /* FOOTER */
+  
+  .footer {
+    font-size: 1rem;
+    color: black;
+  
+    &:hover {
+      color: #007200;
+      font-weight: bold;
+      transition: 0ms;
+    }
+  }
+  
+  /* CARRUSEL */
+  
+  .carrusel {
+    height: 900px;
+    border-radius: 20px;
+    box-shadow: 3px 7px 13px gray;
+  }
+  
+  @media (min-width: 300px) and (max-width: 1300px) {
+    .carrusel {
+      width: auto;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 3px 7px 13px gray;
+    }
+  }
+  
+  /* DIVISIONES */
+  
+  .imgDiv {
+    box-shadow: 3px 7px 13px gray;
+    border-radius: 7px;
+  }
+  
+  /* CARDS */
+  
+  .card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 3px 7px 13px gray;
+  }
+  
+  .card-body {
+    padding: 25px;
+    margin-top: -15px;
+  }
+  
+  .btn-primary {
+    border-radius: 50px;
+    width: 120px;
+    background-color: #007200;
+    border-color: #007200;
+  
+    &:hover {
+      background-color: #45a049;
+      border: none;
+    }
+  }
+  
+  .imgFrutas {
+    height: 200px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  h3 {
+    color: #007200;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+  
+  /* formulario de contacto */
+  
+  .fondo {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contenedor {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+  
+    textarea, input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #007200;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  }
+  
+  .boton4 {
+    background-color: #007200;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .contenedor button:hover {
+    background-color: #45a049;
+  }
+  
+  /* SERVICIOS */
+  
+  .borde {
+    border-color: #007200;
+  }
+  
+  .titulo {
+    background-color: #007200;
+    color: white;
+  }
